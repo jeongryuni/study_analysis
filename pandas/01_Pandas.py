@@ -56,9 +56,9 @@ print(df1)
 '''
 
 
-# 파이썬 사전(dictionary)으로도 DataFrame을 만들 수 있습니다.
+# 파이썬 딕셔너리(dictionary)으로도 DataFrame을 만들 수 있습니다.
 # 사전의 key로는 column 이름을 쓰고,
-# 그 column에 해당하는 리스트, numpy array, 혹은 pandas Series를 사전의 value로 넣어주면 됩니다.
+# 그 column에 해당하는 리스트, numpy array, 혹은 pandas Series를 딕셔너리의 value로 넣어주면 됩니다.
 
 names = ['dongwook', 'sineui', 'ikjoong', 'yoonsoo']
 english_scores = [50, 89, 68, 88]
@@ -88,7 +88,7 @@ df2 = pd.DataFrame(dict2)
 df3 = pd.DataFrame(dict3)
 print(df1)
 
-#리스트가 담긴 사전이 아니라, 사전이 담긴 리스트로도 DataFrame을 만들 수 있습니다.
+#리스트가 담긴 사전이 아니라, 딕셔너리이 담긴 리스트로도 DataFrame을 만들 수 있습니다.
 
 my_list = [
     {'name': 'dongwook', 'english_score': 50, 'math_score': 86},

@@ -10,8 +10,8 @@ iphone_df = pd.read_csv('../data/iphone.csv', index_col=0)
 #print(iphone_df.loc['iPhone X', :])
 
 # Series는 판다스의 1차원 자료형
-#print(type(iphone_df.loc['iPhone X'])) #<class 'pandas.core.series.Series'>
+#print(type(iphone_df.loc['iPhone X'])) #<class '02_pandas.core.series.Series'>
 
 ## 아이폰의 출시일 모두 불러오기
 #print(iphone_df.loc[:,'출시일'])
-#print(type(iphone_df['출시일'])) #<class 'pandas.core.series.Series'>
+#print(type(iphone_df['출시일'])) #<class '02_pandas.core.series.Series'>

@@ -13,7 +13,7 @@ c    ikjoong         68          91
 d  jeongryun         82          83
 '''
 
-print(type(my_df)) #<class 'pandas.core.frame.DataFrame'>
+print(type(my_df)) #<class '02_pandas.core.frame.DataFrame'>
 print(my_df.columns) #Index(['name', 'eng_score', 'math_score'], dtype='object')
 print(my_df.index) #Index(['a', 'b', 'c', 'd'], dtype='object')
 print(my_df.dtypes)
@@ -29,8 +29,8 @@ dtype: object
 
 # DataFrame을 만드는 다양한 방법
 #
-# 2차원 리스트나 2차원 numpy array로 DataFrame을 만들 수 있습니다.
-# 심지어 pandas Series를 담고 있는 리스트로도 DataFrame을 만들 수 있습니다.
+# 2차원 리스트나 2차원 01_numpy array로 DataFrame을 만들 수 있습니다.
+# 심지어 02_pandas Series를 담고 있는 리스트로도 DataFrame을 만들 수 있습니다.
 
 two_dimensional_list = [['dongwook', 50, 86], ['sineui', 89, 31], ['ikjoong', 68, 91], ['yoonsoo', 88, 75]]
 two_dimensional_array = np.array(two_dimensional_list)
@@ -58,7 +58,7 @@ print(df1)
 
 # 파이썬 딕셔너리(dictionary)으로도 DataFrame을 만들 수 있습니다.
 # 사전의 key로는 column 이름을 쓰고,
-# 그 column에 해당하는 리스트, numpy array, 혹은 pandas Series를 딕셔너리의 value로 넣어주면 됩니다.
+# 그 column에 해당하는 리스트, 01_numpy array, 혹은 02_pandas Series를 딕셔너리의 value로 넣어주면 됩니다.
 
 names = ['dongwook', 'sineui', 'ikjoong', 'yoonsoo']
 english_scores = [50, 89, 68, 88]

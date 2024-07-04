@@ -6,7 +6,7 @@ iphone_df = pd.read_csv('../data/iphone.csv', index_col=0)
 
 ## low 여러개 가져오기 ( 리스트 형태로 가져오면 된다. )
 # print(iphone_df.loc[['iPhone X','iPhone 8']]) #
-# print(type(iphone_df.loc[['iPhone X','iPhone 8']])) #<class 'pandas.core.frame.DataFrame'>
+# print(type(iphone_df.loc[['iPhone X','iPhone 8']])) #<class '02_pandas.core.frame.DataFrame'>
 
 
 ## 컬럼 한개 가져오기
